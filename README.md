@@ -1,1 +1,1 @@
-# NftMinter
+# NFT Minter
