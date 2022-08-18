@@ -2,6 +2,7 @@
   "name": "nft-minter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mozoou.github.io",
   "dependencies": {
     "@chakra-ui/react": "^2.2.8",
     "@emotion/react": "^11.10.0",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +47,7 @@
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "dotenv": "^16.0.1",
+    "gh-pages": "^4.0.0",
     "hardhat": "^2.10.2",
     "ts-node": "^10.9.1"
   }
